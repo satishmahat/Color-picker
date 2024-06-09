@@ -1,0 +1,36 @@
+body{
+    font-family: Papyrus;
+    background-color: whitesmoke;
+}
+
+.color-picker-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.color-picker-container h1{
+    font-size: 50px;
+    margin-top: 80px;
+}
+
+.color-display{
+    width: 250px;
+    height: 250px;
+    border: 1px solid black;
+    border-radius: 8px;
+    font-weight: bolder;
+    text-align: center;
+    text-shadow: 0px 0px 2px rgba(255,255,255,0.6);
+}
+.color-picker-container label{
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.color-picker-container input{
+    margin-top: 10px;
+    width: 100px;
+    height: 40px;
+    border-radius: 8px;
+}
